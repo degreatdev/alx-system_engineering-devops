@@ -1,4 +1,5 @@
-#!/usr/bin/env bash
-# prints processes
 
-ps u -A -H
+#!/usr/bin/env bash
+#list all pids
+
+ps -auxf
